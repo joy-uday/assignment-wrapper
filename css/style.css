@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.container{
+    width: 1100px;
+    margin: auto;
+}
+.home-section{
+    background: linear-gradient(0grad, rgba(55, 0, 32, 0.71), rgba(55, 0, 32, 0.84)),url(../img/bulb-2124338.png);
+    
+    height: 40vh;
+    background-position-y: 28%;
+    background-position-x: 5%;
+    margin-bottom: 5%; 
+}
+.home-section-wrapper{
+    width: 70%;
+    margin: auto;
+    padding-top: 4%;
+}
+.home-logo{
+
+    text-align: center;
+}
+.home-logo a{
+
+}
+.home-logo img{
+
+    max-width: 100%;
+    width: 100px;
+    filter: invert(1);
+    filter: ;
+}
+.home-icon{
+
+}
+.home-icon ul{
+
+    text-align: center;
+}
+.home-icon li{
+
+    list-style: none;
+    display: inline-block;
+    padding: 1%;
+}
+.home-icon a{
+
+    font-size: 25px;
+    color: red;
+}
+.home-icon i:hover{
+    color: wheat
+}
+.assignments {
+    background: tomato;
+    height: 175vh;
+    margin-top: -5%;
+}
+.assignments-wrapper{
+    width: 1140px;
+    margin: auto;
+}
+.assignments-heading{
+    text-align: center;
+    
+}
+.assignments-heading h1{
+    text-align: center;
+    font-family: staatliches;
+    font-size: 50px;
+    padding: 5% auto 0%;
+    color: white;
+    padding-top: 5%;
+}
+.assignments-done{
+
+}
+.assignment1{
+    width: 30%;
+    margin: auto;
+    float: left;
+    background: black;
+    height: 50vh;
+    margin: 5% 1%;
+}
+.assignment1 h1{
+
+    padding: 15px;
+    text-align: center;
+    font-family: staatliches;
+    color: yellow;
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-weight: 1;
+}
+ 
+.assignment1-img{
+    
+    height: 50vh;
+    overflow: scroll; 
+}
+.assignment1 img{
+    
+    max-width: 100%; 
+    transition: .2s;
+}
+.assignment1 img:hover{
+    scale: 102%;
+    transition: .2s;
+    filter: grayscale(5);
+}
+ 
+
+
+/* footer footer */
+.footer-section{
+
+    height: 30vh;
+    text-align: center;
+}
+.footer-section-wrapper{
+
+    padding-top: 3%;
+}
+.footer-details{
+
+}
+.footer-details p{
+
+    font-family: staatliches;
+    color: red;
+    font-size: 35px;
+}
+.footer-details a{
+
+}
+.footer-details i:hover{
+    color: tomato;
+    transition:.1s;
+}
+.footer-details i{
+    padding: 0;
+    font-size: 50px;
+    color: blue;
+}
+.right-reserved{
+
+}
+.right-reserved p{
+
+    font-family: staatliches;
+    letter-spacing: 5px;
+    padding: 2%;
+    font-size: 20px;
+}
+
+
+
+.top-nav-button{
+    
+}
+.top-nav-button i{
+
+    padding: 5%;
+    font-size: 40px;
+    transform: rotate(90deg);
+    color: red;
+}
+.top-nav-button a{
+
+}
+.top-nav-button i:hover{
+
+    transition: .2s ease;
+    color: blue;
+}
